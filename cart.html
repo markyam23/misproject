@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Gnash - About</title>
+    <title>Gnash - Shopping Cart</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -37,7 +37,7 @@
     <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body class="about-page">
+  <body class="inblog-page">
     <header class="header style7">
       <div class="top-bar">
         <div class="container">
@@ -128,21 +128,10 @@
                 <div
                   class="block-minicart gnash-mini-cart block-header gnash-dropdown"
                 >
-                  <a
-                    href="javascript:void(0);"
-                    class="shopcart-icon"
-                    data-gnash="gnash-dropdown"
-                  >
+                  <a href="javascript:void(0);" class="shopcart-icon">
                     Cart
                     <span class="count"> 0 </span>
                   </a>
-                  <div class="no-product gnash-submenu">
-                    <p class="text">
-                      You have
-                      <span> 0 item(s) </span>
-                      in your bag
-                    </p>
-                  </div>
                 </div>
                 <div class="block-account block-header gnash-dropdown">
                   <a href="javascript:void(0);" data-gnash="gnash-dropdown">
@@ -597,163 +586,241 @@
         </div>
       </div>
     </div>
-    <div class="main-content main-content-about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="breadcrumb-trail breadcrumbs">
-              <ul class="trail-items breadcrumb">
-                <li class="trail-item trail-begin">
-                  <a href="index.html">Home</a>
-                </li>
-                <li class="trail-item trail-end active">About Us</li>
-              </ul>
-            </div>
+    <div class="site-content">
+      <main class="site-main main-container no-sidebar">
+        <div class="container">
+          <div class="breadcrumb-trail breadcrumbs">
+            <ul class="trail-items breadcrumb">
+              <li class="trail-item trail-begin">
+                <a href="">
+                  <span> Home </span>
+                </a>
+              </li>
+              <li class="trail-item trail-end active">
+                <span> Shopping Cart </span>
+              </li>
+            </ul>
           </div>
-        </div>
-        <div class="row">
-          <div
-            class="content-area content-about col-lg-12 col-md-12 col-sm-12 col-xs-12"
-          >
-            <div class="site-main">
-              <h3 class="custom_blog_title">About Us</h3>
+          <div class="row">
+            <div class="main-content-cart main-content col-sm-12">
+              <h3 class="custom_blog_title">Shopping Cart</h3>
               <div class="page-main-content">
-                <div class="header-banner banner-image">
-                  <div class="banner-wrap">
-                    <div class="banner-header">
-                      <div class="col-lg-5 col-md-offset-7">
-                        <div class="content-inner">
-                          <h2 class="title">
-                            New Collection <br />
-                            for you
-                          </h2>
-                          <div class="sub-title">
-                            Shop the latest products right <br />
-                            We have beard supplies from top brands.
-                          </div>
-                          <a href="#" class="gnash-button button">Shop now</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-3 col-md-4 col-sm-4">
-                    <div class="gnash-iconbox layout1">
-                      <div class="iconbox-inner">
-                        <div class="icon-item">
-                          <span class="placeholder-text">01</span>
-                          <span class="icon flaticon-rocket-ship"></span>
-                        </div>
-                        <div class="content">
-                          <h4 class="title">EU Free Delivery</h4>
-                          <div class="text">
-                            Free Delivery on all order from EU with price more
-                            than $90.00
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-md-4 col-sm-4 col-lg-offset-1">
-                    <div class="gnash-iconbox layout1">
-                      <div class="iconbox-inner">
-                        <div class="icon-item">
-                          <span class="placeholder-text">02</span>
-                          <span class="icon flaticon-return"></span>
-                        </div>
-                        <div class="content">
-                          <h4 class="title">Money Guarantee</h4>
-                          <div class="text">
-                            30 Days money back guarantee no question asked!
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-3 col-md-4 col-sm-4 col-lg-offset-1">
-                    <div class="gnash-iconbox layout1">
-                      <div class="iconbox-inner">
-                        <div class="icon-item">
-                          <span class="placeholder-text">03</span>
-                          <span class="icon flaticon-padlock"></span>
-                        </div>
-                        <div class="content">
-                          <h4 class="title">Online Support 24/7</h4>
-                          <div class="text">
-                            We’re here to support to you 24/7. Let’s shopping
-                            now!
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="team-member">
-                  <div class="row">
-                    <div class="col-sm-12 border-custom">
-                      <span></span>
-                    </div>
-                  </div>
-                  <h2 class="custom_blog_title center">
-                    gnash’s Important Persons
-                  </h2>
-                  <div
-                    class="team-member-slider nav-center owl-slick"
-                    data-slick='{"autoplay":false, "autoplaySpeed":1000, "arrows":true, "dots":false, "infinite":true, "speed":800, "rows":1}'
-                    data-responsive='[{"breakpoint":"0","settings":{"slidesToShow":1}},{"breakpoint":"480","settings":{"slidesToShow":1}},{"breakpoint":"767","settings":{"slidesToShow":2}},{"breakpoint":"991","settings":{"slidesToShow":3}},{"breakpoint":"1199","settings":{"slidesToShow":3}},{"breakpoint":"2000","settings":{"slidesToShow":3}}]'
-                  >
-                    <div class="gnash-team-member">
-                      <div class="team-member-item">
-                        <div class="member_avatar">
-                          <img src="assets/images/member3.png" alt="img" />
-                        </div>
-                        <h5 class="member_name">Mr Claudio</h5>
-                        <div class="member_position">
-                          CEO & Founder gnash Outfit
-                        </div>
-                      </div>
-                    </div>
-                    <div class="gnash-team-member">
-                      <div class="team-member-item">
-                        <div class="member_avatar">
-                          <img src="assets/images/member2.png" alt="img" />
-                        </div>
-                        <h5 class="member_name">Mr Claudio</h5>
-                        <div class="member_position">
-                          CEO & Founder gnash Outfit
-                        </div>
-                      </div>
-                    </div>
-                    <div class="gnash-team-member">
-                      <div class="team-member-item">
-                        <div class="member_avatar">
-                          <img src="assets/images/member1.png" alt="img" />
-                        </div>
-                        <h5 class="member_name">Mr Claudio</h5>
-                        <div class="member_position">
-                          CEO & Founder gnash Outfit
-                        </div>
-                      </div>
-                    </div>
-                    <div class="gnash-team-member">
-                      <div class="team-member-item">
-                        <div class="member_avatar">
-                          <img src="assets/images/member3.png" alt="img" />
-                        </div>
-                        <h5 class="member_name">Mr Claudio</h5>
-                        <div class="member_position">
-                          CEO & Founder gnash Outfit
-                        </div>
-                      </div>
-                    </div>
+                <div class="shoppingcart-content">
+                  <form action="shoppingcart.html" class="cart-form">
+                    <table class="shop_table">
+                      <thead>
+                        <tr>
+                          <th class="product-remove"></th>
+                          <th class="product-thumbnail"></th>
+                          <th class="product-name"></th>
+                          <th class="product-price"></th>
+                          <th class="product-quantity"></th>
+                          <th class="product-subtotal"></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="cart_item">
+                          <td class="product-remove">
+                            <a href="#" class="remove"></a>
+                          </td>
+                          <td class="product-thumbnail">
+                            <a href="#">
+                              <img
+                                src="assets/images/cart-item-2.jpg"
+                                alt="img"
+                                class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image"
+                              />
+                            </a>
+                          </td>
+                          <td class="product-name" data-title="Product">
+                            <a href="#" class="title">Mini swing dress</a>
+                            <span class="attributes-select attributes-color"
+                              >Black,</span
+                            >
+                            <span class="attributes-select attributes-size"
+                              >XXL</span
+                            >
+                          </td>
+                          <td class="product-quantity" data-title="Quantity">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
+                              </div>
+                            </div>
+                          </td>
+                          <td class="product-price" data-title="Price">
+                            <span class="woocommerce-Price-amount amount">
+                              <span class="woocommerce-Price-currencySymbol">
+                                $
+                              </span>
+                              45
+                            </span>
+                          </td>
+                        </tr>
+                        <tr class="cart_item">
+                          <td class="product-remove">
+                            <a href="#" class="remove"></a>
+                          </td>
+                          <td class="product-thumbnail">
+                            <a href="#">
+                              <img
+                                src="assets/images/cart-item-3.jpg"
+                                alt="img"
+                                class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image"
+                              />
+                            </a>
+                          </td>
+                          <td class="product-name" data-title="Product">
+                            <a href="#" class="title">Square neck top</a>
+                            <span class="attributes-select attributes-color"
+                              >White,</span
+                            >
+                            <span class="attributes-select attributes-size"
+                              >M</span
+                            >
+                          </td>
+                          <td class="product-quantity" data-title="Quantity">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
+                              </div>
+                            </div>
+                          </td>
+                          <td class="product-price" data-title="Price">
+                            <span class="woocommerce-Price-amount amount">
+                              <span class="woocommerce-Price-currencySymbol">
+                                $
+                              </span>
+                              45
+                            </span>
+                          </td>
+                        </tr>
+                        <tr class="cart_item">
+                          <td class="product-remove">
+                            <a href="#" class="remove"></a>
+                          </td>
+                          <td class="product-thumbnail">
+                            <a href="#">
+                              <img
+                                src="assets/images/cart-item-1.jpg"
+                                alt="img"
+                                class="attachment-shop_thumbnail size-shop_thumbnail wp-post-image"
+                              />
+                            </a>
+                          </td>
+                          <td class="product-name" data-title="Product">
+                            <a href="#" class="title">Blood Plums</a>
+                            <span class="attributes-select attributes-color"
+                              >Brown,</span
+                            >
+                            <span class="attributes-select attributes-size"
+                              >XS</span
+                            >
+                          </td>
+                          <td class="product-quantity" data-title="Quantity">
+                            <div class="quantity">
+                              <div class="control">
+                                <a
+                                  class="btn-number qtyminus quantity-minus"
+                                  href="#"
+                                  >-</a
+                                >
+                                <input
+                                  type="text"
+                                  data-step="1"
+                                  data-min="0"
+                                  value="1"
+                                  title="Qty"
+                                  class="input-qty qty"
+                                  size="4"
+                                />
+                                <a
+                                  href="#"
+                                  class="btn-number qtyplus quantity-plus"
+                                  >+</a
+                                >
+                              </div>
+                            </div>
+                          </td>
+                          <td class="product-price" data-title="Price">
+                            <span class="woocommerce-Price-amount amount">
+                              <span class="woocommerce-Price-currencySymbol">
+                                $
+                              </span>
+                              45
+                            </span>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="actions">
+                            <div class="coupon">
+                              <label class="coupon_code">Coupon Code:</label>
+                              <input
+                                type="text"
+                                class="input-text"
+                                placeholder="Promotion code here"
+                              />
+                              <a href="#" class="button"></a>
+                            </div>
+                            <div class="order-total">
+                              <span class="title"> Total Price: </span>
+                              <span class="total-price"> $95 </span>
+                            </div>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </form>
+                  <div class="control-cart">
+                    <button class="button btn-continue-shopping">
+                      Continue Shopping
+                    </button>
+                    <button class="button btn-cart-to-checkout">
+                      Checkout
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </main>
     </div>
     <footer class="footer style7">
       <div class="container">
