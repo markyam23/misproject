@@ -39,7 +39,7 @@ body {
   font-family: "Jost", sans-serif;
   font-size: 16px;
   line-height: 26px;
-  color: #666;
+  color: rgb(55, 160, 55);
   overflow-x: hidden;
 }
 label {
@@ -58,7 +58,7 @@ a:active {
 }
 img {
   max-width: 100%;
-  height: auto;
+  height: 100px;
 }
 ul,
 ol {
@@ -79,7 +79,7 @@ h5,
 h6 {
   line-height: 1.428;
   font-weight: 500;
-  color: #000;
+  color: white;
   margin-top: 0;
 }
 h1 {
@@ -1559,7 +1559,7 @@ table tr:last-child th {
 }
 .mini_cart_item .product-name {
   font-size: 15px;
-  color: #333;
+  color: black;
   text-transform: capitalize;
   margin-bottom: 0;
 }
@@ -5965,7 +5965,7 @@ ul.list-products {
   overflow: hidden;
 }
 .slider-item .title-small {
-  color: #8eb359;
+  color: red;
   font-size: 14px;
   letter-spacing: 0.05em;
   font-weight: 700;
@@ -6016,7 +6016,7 @@ ul.list-products {
 .slider-item .price .number-price {
   text-transform: uppercase;
   font-size: 28px;
-  color: #8eb359;
+  color: turquoise;
   font-weight: 600;
   position: relative;
 }
@@ -6127,7 +6127,7 @@ ul.list-products {
   padding-right: 30px;
   padding-bottom: 36px;
   padding-left: 30px;
-  background-image: url(../images/newsletter-bg.jpg);
+  background-image: url(../images/newsletter.jpg);
   background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8592,7 +8592,7 @@ body.vertical-menu-open .vertical-menu-overlay {
   position: relative;
 }
 .item-banner .button {
-  color: #000;
+  color: white;
   background-color: transparent;
   padding-right: 0;
   padding-left: 0;
@@ -8825,7 +8825,7 @@ iframe {
   top: 0 !important;
 }
 .item-banner.style9 .inner {
-  background-image: url(../images/banner-home-7.jpg);
+  background-image: url(../images/handbag.jpg);
 }
 .item-banner.style9.type1 .inner {
   background-image: url(../images/sale.jpg);
@@ -9048,7 +9048,7 @@ iframe {
   position: relative;
 }
 .item-banner.style21 .inner {
-  background-image: url(../images/banner-home-19.jpg);
+  background-image: url(../images/localplant.jpg);
   border-radius: 0;
   background-size: cover;
 }
@@ -9187,7 +9187,7 @@ iframe {
   position: relative;
 }
 .item-banner.style15 .inner {
-  background-image: url(../images/banner-home-13.jpg);
+  background-image: url(../images/shoplocal.jpg);
   overflow: hidden;
   background-position: 25% center;
 }
@@ -9214,7 +9214,7 @@ iframe {
   text-decoration: underline;
 }
 .item-banner.style16 .inner {
-  background-image: url(../images/banner-home-14.jpg);
+  background-image: url(../images/opensign.jpg);
 }
 .item-banner.style16 .banner-content {
   padding-top: 30px;
