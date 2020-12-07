@@ -5965,7 +5965,7 @@ ul.list-products {
   overflow: hidden;
 }
 .slider-item .title-small {
-  color: red;
+  color: white;
   font-size: 14px;
   letter-spacing: 0.05em;
   font-weight: 700;
@@ -5988,6 +5988,7 @@ ul.list-products {
   line-height: 1;
   max-width: 370px;
   text-transform: capitalize;
+  color: white;
 }
 .slider-item.slick-active .title-big {
   animation-duration: 2s;
@@ -6091,6 +6092,10 @@ ul.list-products {
 }
 .slider-item.style3 .slider-inner {
   background-image: url(../images/slider-thumb3.jpg);
+}
+.home-slider .title-big,
+.home-slider .title-small {
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
 }
 .home-slider.style1 {
   padding-top: 30px;
@@ -8572,6 +8577,13 @@ iframe {
   padding-bottom: 77px;
   padding-left: 40px;
   margin-bottom: 30px;
+}
+.item-banner .inner {
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  position: relative;
+  background-color: #f5f5f5;
   background-size: cover;
 }
 .item-banner.style9 .title {
@@ -8797,6 +8809,7 @@ iframe {
 }
 .item-banner.style21 .banner-content .banner-content-inner {
   float: right;
+  color: white;
 }
 .item-banner.style21 .title {
   font-size: 46px;
@@ -8806,7 +8819,7 @@ iframe {
   margin-bottom: 23px;
 }
 .item-banner.style21 .start-from span {
-  color: #8eb359;
+  color: white;
   font-weight: 600;
 }
 .item-banner.style21 .group-pinap .btn-pinmap-1 {
