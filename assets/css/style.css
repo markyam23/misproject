@@ -79,7 +79,7 @@ h5,
 h6 {
   line-height: 1.428;
   font-weight: 500;
-  color: white;
+  /* color: white; */
   margin-top: 0;
 }
 h1 {
@@ -8534,271 +8534,7 @@ body.vertical-menu-open .vertical-menu-overlay {
 .popup-pinmap.right::after {
   left: -20px;
 }
-/*----------------------*/
-/*       banner         */
-/* -------------------- */
-/*banner shop*/
-.banner-shop {
-  margin-bottom: 30px;
-}
-.item-banner .inner {
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 8px;
-  position: relative;
-  background-color: #f5f5f5;
-}
-.full-width .item-banner.style1 .inner {
-  background-image: url(../images/banner-01_full_width.jpg);
-}
-.item-banner.style1 .banner-content {
-  padding-left: 150px;
-  padding-right: 30px;
-  padding-top: 65px;
-  padding-bottom: 70px;
-}
-.item-banner .gnash-subtitle {
-  color: #8eb359;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 0 0 5px;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  font-family: "Jost";
-}
-.item-banner.style1 .gnash-subtitle {
-  margin-bottom: 9px;
-}
-.item-banner .title {
-  font-weight: 500;
-  line-height: 1;
-  text-transform: capitalize;
-}
-.item-banner.style1 .inner .title {
-  font-size: 40px;
-  margin-bottom: 8px;
-}
-.item-banner .when-code {
-  font-size: 13px;
-  text-transform: uppercase;
-  color: #888888;
-  margin-bottom: 22px;
-  display: block;
-  font-weight: 700;
-}
-.item-banner .when-code .code {
-  font-size: 18px;
-  color: #8eb359;
-  position: relative;
-}
-.item-banner .button {
-  color: white;
-  background-color: transparent;
-  padding-right: 0;
-  padding-left: 0;
-  padding-top: 7px;
-  padding-bottom: 7px;
-  margin-right: 5px;
-  border-radius: 0;
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  font-size: 16px;
-}
-.item-banner .button::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 8px;
-  width: 100%;
-  border-bottom: 9px solid #8eb359;
-  opacity: 0.7;
-  z-index: -1;
-}
-.item-banner .banner-content > .button:last-child {
-  margin-right: 0;
-}
-.item-banner .button:hover {
-  color: #000;
-  background: none;
-}
-.item-banner .button:hover::before {
-  -webkit-animation: underline-link 0.8s cubic-bezier(0.58, 0.3, 0.005, 1) 0s 1;
-  animation: underline-link 0.8s cubic-bezier(0.58, 0.3, 0.005, 1) 0s 1;
-}
-.full-width .item-banner.style2 .inner {
-  background-image: url(../images/banner-02_full_width.jpg);
-}
-.item-banner.style2 .banner-content {
-  padding-left: 130px;
-  padding-right: 30px;
-  padding-top: 78px;
-  padding-bottom: 78px;
-}
-.item-banner .description {
-  font-size: 16px;
-  line-height: 22px;
-  margin-bottom: 17px;
-  display: block;
-}
-.item-banner .hot-price {
-  font-size: 16px;
-  text-transform: capitalize;
-  display: block;
-}
-.item-banner .hot-price .price-number {
-  font-size: 30px;
-  letter-spacing: -0.05em;
-  color: #8eb359;
-  text-transform: uppercase;
-  font-weight: 700;
-  position: relative;
-}
-.item-banner.style2 .hot-price {
-  margin-bottom: 25px;
-}
-.item-banner.style2 .title {
-  font-size: 30px;
-  margin-bottom: 5px;
-  font-weight: 700;
-  line-height: 32px;
-}
-.banner-slider .slick-dots {
-  position: absolute;
-  bottom: 25px;
-  left: 50%;
-  z-index: 10;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-}
-/*banner home 01*/
-.item-banner.style3 .banner-content {
-  padding-top: 57px;
-  padding-right: 70px;
-  padding-bottom: 58px;
-  padding-left: 480px;
-  margin-bottom: 30px;
-}
-.item-banner.style3 .title {
-  font-size: 30px;
-  line-height: 32px;
-  margin-bottom: 7px;
-  font-weight: 700;
-}
-.item-banner.style3 .gnash-subtitle {
-  margin-bottom: 7px;
-}
-.item-banner.style3 .description {
-  margin-bottom: 25px;
-}
-/*banner home 02*/
-.item-banner.style4 .inner {
-  background-image: url(../images/banner-home-2.jpg);
-  background-size: cover;
-}
-.item-banner.style4 .banner-content {
-  padding-left: 40px;
-  padding-bottom: 60px;
-  padding-right: 300px;
-  padding-top: 57px;
-  margin-bottom: 30px;
-}
-.item-banner.style4 .title {
-  margin-bottom: 12px;
-  font-size: 26px;
-  line-height: 32px;
-}
-.item-banner.style4 .description {
-  margin-bottom: 28px;
-  max-width: 195px;
-}
-.item-banner.style5 .inner {
-  background-image: url(../images/banner-home-3.jpg);
-  background-size: cover;
-}
-.item-banner.style5 .banner-content {
-  padding-left: 40px;
-  padding-bottom: 60px;
-  padding-right: 300px;
-  padding-top: 60px;
-  margin-bottom: 30px;
-}
-.item-banner.style5 .title {
-  font-size: 26px;
-  line-height: 32px;
-}
-.item-banner.style5 .code {
-  font-size: 16px;
-  line-height: 22px;
-  margin-bottom: 20px;
-  display: block;
-  text-transform: none;
-  max-width: 230px;
-}
-.item-banner.style5 .code span {
-  font-weight: 600;
-  color: #8eb359;
-  position: relative;
-}
-.item-banner.style6 .inner {
-  background-image: url(../images/banner-home-4.jpg);
-  border-radius: 0;
-}
-.item-banner.style6 .banner-content {
-  padding-left: 0;
-  padding-bottom: 180px;
-  padding-right: 0;
-  padding-top: 180px;
-}
-.item-banner.style6 .title {
-  font-size: 44px;
-  margin-bottom: 20px;
-  line-height: 1.2;
-}
-/*banner home 03*/
-.item-banner.style7 .inner {
-  background-image: url(../images/banner-home-5.jpg);
-}
-.item-banner.style7 .banner-content {
-  padding-top: 59px;
-  padding-right: 165px;
-  padding-bottom: 60px;
-  padding-left: 30px;
-  margin-bottom: 20px;
-}
-.item-banner.style7 .title,
-.item-banner.style8 .title {
-  font-size: 26px;
-  line-height: 32px;
-}
-.item-banner.style7 .description {
-  margin-bottom: 15px;
-  max-width: 185px;
-}
-.item-banner.style8 .inner {
-  background-image: url(../images/banner-home-6.jpg);
-}
-.item-banner.style8 .banner-content {
-  padding-top: 64px;
-  padding-right: 166px;
-  padding-bottom: 73px;
-  padding-left: 30px;
-  margin-bottom: 20px;
-}
-.item-banner.style8 .description {
-  margin-bottom: 13px;
-  max-width: 185px;
-}
-.item-banner .price {
-  font-size: 23px;
-  font-weight: 600;
-  line-height: 28px;
-  color: #8eb359;
-  position: relative;
-}
+
 /*banner video*/
 iframe {
   max-width: 100%;
@@ -8836,6 +8572,7 @@ iframe {
   padding-bottom: 77px;
   padding-left: 40px;
   margin-bottom: 30px;
+  background-size: cover;
 }
 .item-banner.style9 .title {
   font-size: 32px;
@@ -11419,4 +11156,5 @@ a:active,
 }
 .product-item .product-inner img {
   width: 100%;
+  object-fit: cover;
 }
